@@ -2,15 +2,17 @@ var _ = require("lodash");
 
 var data = [];
 
+var count = 0;
 function add (name, content) {
-  data.push({name: name, content: content});
+  data.push({name: name, content: content, id: ++count});
+  console.log(data);
 }
 
 function list () {
   return _.cloneDeep(data);
 }
 
-function find () {
+function find (properties) {
   return _.cloneDeep(_.filter(data, properties));
 }
 

@@ -67,6 +67,29 @@ code {
   width: 48px;
   content:url("http://lorempixel.com/48/48");
 }
+
+li.tweet {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.tweet img {
+  float: left;
+  vertical-align: middle;
+  padding: 6px 6px 6px 0;
+  height: 3em;
+  width: 3em;
+}
+
+.tweet p {
+  margin-bottom: 0;
+}
+
+.retweet {
+  padding-top: 0;
+  margin-bottom: 24px;
+}
+
 .content {
   margin-left: 60px;
 }

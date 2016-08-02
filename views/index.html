@@ -8,14 +8,19 @@
  <div class="row">
    <div class="col-md-3">
      <img src="https://pbs.twimg.com/profile_images/2450268678/olxp11gnt09no2y2wpsh_normal.jpeg"><br>
-     <b>Your Name</b><br>
-     100 followers
+     <b>Slavoj Zizek</b><br>
+     100 followers, of my Ideology
    </div>
    <div class="col-md-9">
 
      <!-- display tweets here -->
      {% for tweet in tweets %}
-       <li>{{tweet.content}}</li>
+     <li class="tweet">
+       <img src="https://i.ytimg.com/vi/W3UspeshBL4/hqdefault.jpg">
+       <b><a href="/users/{{tweet-name}}">{{tweet.name}}</a></b>
+       <p>{{tweet.content}}</p>
+     </li>
+     <p class="retweet">Re-tweet(this is a link)</p>
      {% endfor %}
 
    </div>
