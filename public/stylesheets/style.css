@@ -1,0 +1,86 @@
+Skip to content
+
+
+Search…
+All gists
+GitHub
+New gist @hannahlorane
+  Star 0
+  Fork 0
+  @nimitmarunimitmaru/style.css Secret
+Last active 7 months ago
+Embed
+<script src="https://gist.github.com/nimitmaru/99989c6c6a3a8a525d1b.js"></script>
+  Download ZIP
+ Code  Revisions 3
+Raw  style.css
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.tweetbox {
+  padding: 7px;
+}
+
+.tweetbox img {
+  float: left;
+  height: 48px;
+  width: 48px;
+  content:url("http://lorempixel.com/48/48");
+}
+.content {
+  margin-left: 60px;
+}
+.content .by {
+  font-weight: bold;
+}
+ @hannahlorane
+
+
+Write  Preview
+
+Leave a comment
+Attach files by dragging & dropping,  Choose Files selecting them, or pasting from the clipboard.
+ Styling with Markdown is supported
+Comment
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
