@@ -4,8 +4,7 @@ var data = [];
 
 var count = 0;
 function add (name, content) {
-  data.push({name: name, content: content, id: ++count});
-  console.log(data);
+  data.push({name: name, content: content, id: ++count+""});
 }
 
 function list () {
