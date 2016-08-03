@@ -4,11 +4,12 @@ var data = [];
 
 var count = 0;
 function add (name, content) {
-  data.push({name: name, content: content, id: ++count+""});
+  data.push({name: name, content: content, id: ++count});
 }
 
 function list () {
-  return _.cloneDeep(data);
+  var result = _.cloneDeep(data);
+  return result.reverse();
 }
 
 function find (properties) {
