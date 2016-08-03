@@ -1,3 +1,5 @@
+module.exports = function (io) {
+
 var express = require('express');
 var bodyParser = require("body-parser");
 
@@ -37,4 +39,5 @@ router.get('/', function (req, res) {
   res.render( 'index', { tweets: tweets, showForm: true, onName: false} );
 });
 
-module.exports = router;
+return router;
+}
